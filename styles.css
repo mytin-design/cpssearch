@@ -1,0 +1,67 @@
+#myInput {
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px; 
+}
+
+#myUl {
+    position: absolute;
+    width: 90%;
+    left: 5%;
+    list-style-type: none;
+    padding: 0;
+    margin: 3pc auto;
+    z-index: 50;
+    box-shadow: 0 0 .666pc .666pc #eee;
+}
+
+
+#myUl li a {
+    border: 1px solid #ddd;
+    margin-top: -1px; /* prevent double borders*/
+    background-color: #f6f6f6;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: block;
+
+}
+
+#myUl li a:hover:not(.header) {
+    background-color: #eee; /* add a hover effect except for headers */
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    gap: 1pc;
+    padding: .5pc;
+}
+.search_header {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 1pc;
+    padding: .5pc;
+}
+
+.body_result {
+    padding: .5pc;
+}
+
+ul.hidden {
+    display: none;
+}
+
+
+.imghead {
+    border-radius: 100%;
+}
+
+.searchcontent {
+    border: .1pc solid #eee;
+
+}
